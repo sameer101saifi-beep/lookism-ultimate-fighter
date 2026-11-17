@@ -77,6 +77,12 @@ html.touch,.touch body,.touch #w{touch-action:none;-webkit-touch-callout:none;-w
 .tb.ul{width:4.8em;height:4.8em;background:radial-gradient(circle at 35% 30%,#ffe27acc,#8a5a00cc 70%);border-color:#fff}.tb.ul.rdy{animation:ulr .6s infinite alternate;opacity:1}
 @keyframes ulr{to{box-shadow:0 0 1.4em #ffd34a,0 0 .4em #fff;transform:scale(1.1)}}
 .tb.dn{transform:scale(.88);opacity:1;filter:brightness(1.4)}
+/* select screen: FIGHT / BACK / ARENA always visible at the bottom */
+#sel{padding-bottom:9%}
+#sel #grid{width:88%}
+#sel h2{font-size:1.25em}
+#sel #info{min-height:6em}
+#sel .row{position:absolute;left:2.5%;bottom:2.2%;z-index:8}
 </style></head><body><div id="w"><canvas id="cv"></canvas>
 <div id="menu" class="s on"><h1>LOOKISM<small>UNLIMITED FIGHTERS</small></h1><button class="b" data-m="ai">PLAYER VS AI</button><button class="b" data-m="train">TRAINING MODE</button><button class="b" data-m="combo">PRACTICE COMBOS</button><button class="b" data-m="show">CHARACTER SHOWCASE</button>
 <p id="hint">A / D move (hold to run) · W jump · S block · J punch (tap J J J for a combo) · K kick · L special (30 energy) · U ultimate (full energy) · Shift dodge · hold E to charge energy · Esc menu</p></div>
